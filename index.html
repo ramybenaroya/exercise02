@@ -17,10 +17,11 @@
 				<option value="{{name}}">{{name}}</option>
 			{{/each}}
 		<select>
-	  <ul id="items">
-	    {{#each houses}}
-	      <li id="{{name}}" class="house">
-	        <h2>{{name}}</h2>  
+		<p>*Note: You can also change the order of people in each house by dragging them</p>
+		<ul id="items">
+		{{#each houses}}
+		  <li id="{{name}}" class="house">
+		    <h2>{{name}}</h2>  
 			<ul class="people-list sortable-list">
 		        {{#each people}}
 			        <li class='person'>
@@ -33,10 +34,10 @@
 			            </div>
 			        </li>
 		        {{/each}}
-	       	</ul>
-	      </li>
-	    {{/each}}
-	  </ul>
+		   	</ul>
+		  </li>
+		{{/each}}
+		</ul>
 	</script>
 	<script src="bower_components/handlebars/handlebars.js"></script>
     <script src="bower_components/jquery/dist/jquery.js"></script>
