@@ -22,7 +22,7 @@
 	- Wiki page: `http://gameofthrones.wikia.com/wiki/{{wikiSuffix}}`
 	- Image: `http://cheatsheetworld.com/img/entertainment/game-of-thrones/game-of-thrones-{{imageSuffix}}.jpg`
 - This project already comes with jqueryUI. You can use [sortable](https://jqueryui.com/sortable/) in order to implement the drag & drop
-- This project already comes with [select2](https://select2.github.io/) which is jquery plugin for all kinds of shiny nice select boxes.
+- This project already comes with [select2](https://select2.github.io/) which is a jquery plugin for all kinds of shiny nice select boxes.
 
 Note: Each character data object contains `wikiSuffix` & `imageSuffix` properties.
 - Useful Native Javascripts Methods
